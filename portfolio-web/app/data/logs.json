@@ -1,0 +1,298 @@
+{
+  "logs": [
+    {
+      "slug": "week-1",
+      "weekNumber": 1,
+      "weekLabel": "Week 1",
+      "title": "Week 1: Research, PRD, and Onboarding",
+      "dateRange": "February 9 - February 14",
+      "preview": "Started OJT by researching web scraping and automation, then aligned early backend tasks with PRD fundamentals.",
+      "tasks": [
+        "Conducted research on web scraping and automation concepts.",
+        "Learned how to create and understand a Product Requirements Document (PRD).",
+        "Assigned to a backend development team and given initial tasks.",
+        "Began testing and evaluating the PandanChain pipeline, focusing on upload controls.",
+        "Attended a 3-hour seminar on Vibe Coding 101 discussing effective AI tooling in development (Feb 14)."
+      ],
+      "learnings": [
+        "A PRD is essential in system development; both backend and frontend implementations must strictly follow it to avoid wasted effort.",
+        "AI tools can significantly improve productivity when used properly, but developers should understand the code rather than rely on blind copy-pasting.",
+        "Learned the importance of version control discipline: never push directly to the main branch."
+      ],
+      "tags": ["PandanChain", "Research", "PRD", "Backend"]
+    },
+    {
+      "slug": "week-2",
+      "weekNumber": 2,
+      "weekLabel": "Week 2",
+      "title": "Week 2: Frontend Implementation and Field Validation",
+      "dateRange": "February 16 - February 20",
+      "preview": "Implemented major PandanChain frontend requirements while debugging UI and validating requirements through field interviews.",
+      "tasks": [
+        "Began implementation of frontend requirements for PandanChain, including entity-first measure flow, multiple file uploads, draft vs ready-for-filing controls, file preview system, visibility and publishing fixes, and UI spacing improvements.",
+        "Resolved several frontend and backend bugs, including individual file printing issues, preview button functionality, and interface inconsistencies.",
+        "Conducted research on Supabase alternatives for potential system architecture improvements.",
+        "Participated in field research and interviews at Mapandan Municipal Hall for PandanChain project validation.",
+        "Studied task assignment and tracking systems to improve internal workflow structures."
+      ],
+      "learnings": [
+        "Learned how structured file workflows improve document management systems.",
+        "Gained experience debugging both frontend UI issues and backend logic integration.",
+        "Developed research and communication skills through field interviews and requirement gathering.",
+        "Understood the importance of analyzing database and backend service alternatives when designing scalable systems."
+      ],
+      "tags": ["PandanChain", "Frontend", "Field Research", "Debugging"]
+    },
+    {
+      "slug": "week-3",
+      "weekNumber": 3,
+      "weekLabel": "Week 3",
+      "title": "Week 3: Transition from PandanChain to Sillag",
+      "dateRange": "February 23 - February 27",
+      "preview": "Handled project transition from PandanChain to Sillag while continuing debugging and full-stack adaptation.",
+      "tasks": [
+        "Continued PandanChain development and research activities, including additional interviews at Mapandan Municipal Hall.",
+        "Development of PandanChain was temporarily paused due to an already established archive system.",
+        "Reassigned to a new project called Sillag.",
+        "Integrated into the Sillag development team as a full-stack developer.",
+        "Assisted in debugging and reintroducing coach-related system functionalities in Sillag."
+      ],
+      "learnings": [
+        "Learned the importance of project feasibility and system overlap analysis when deploying new technologies.",
+        "Gained experience transitioning between projects and adapting quickly to new codebases and workflows.",
+        "Strengthened debugging and integration skills within full-stack development environments."
+      ],
+      "tags": ["Sillag", "Transition", "Full Stack", "Debugging"]
+    },
+    {
+      "slug": "week-4",
+      "weekNumber": 4,
+      "weekLabel": "Week 4",
+      "title": "Week 4: Sillag Role-Based Workflow Stabilization",
+      "dateRange": "March 2 - March 6",
+      "preview": "Focused on Sillag workflow stability, profile visibility logic, and role-based interaction debugging.",
+      "tasks": [
+        "Focused development on the Sillag platform.",
+        "Implemented temporary hardcoded university listings for UI beta testing due to React debugging constraints.",
+        "Conducted UI testing and bug identification across multiple system modules.",
+        "Revised the notification system UI, including color and format improvements.",
+        "Debugged approval workflows including approve, pending, reject, and public/private visibility controls.",
+        "Implemented profile linking badges as specified in the PRD.",
+        "Developed shadow profile functionality to assist administrators in approving student profiles.",
+        "Adjusted database structures to properly display shadowed incubatee profiles.",
+        "Refactored profile components to support badge linking and improved user visibility controls.",
+        "Debugged relationship chains between student, coach, and admin interactions, including posting and visibility logic.",
+        "Improved coach comment visibility and implemented viewing restrictions where necessary.",
+        "March 6: Leave day due to unpaid OJT-fee settlement."
+      ],
+      "learnings": [
+        "Developed stronger understanding of role-based system architecture involving multiple user hierarchies.",
+        "Gained experience debugging complex data relationships between users, permissions, and UI states.",
+        "Learned practical strategies for UI testing and iterative feature debugging."
+      ],
+      "tags": ["Sillag", "Role-Based Access", "UI", "Database"]
+    },
+    {
+      "slug": "week-5",
+      "weekNumber": 5,
+      "weekLabel": "Week 5",
+      "title": "Week 5: Workflow Expansion and Analytics Integration",
+      "dateRange": "March 9 - March 14",
+      "preview": "Expanded Sillag workflows with appeals, notifications, mentorship, analytics, and backend rate-limiting hardening.",
+      "tasks": [
+        "Continued development of the Sillag platform, focusing on system stability and feature expansion.",
+        "Revised coach upload interface, including file visibility restrictions and read-state indicators.",
+        "Implemented updates to accept/reject workflows for coach submissions and dashboard actions.",
+        "Updated University Admin request page UI for improved usability.",
+        "Developed an appeal workflow system requiring forced file uploads for account reversions.",
+        "Implemented admin file visibility tools allowing administrators to review evidence before approval or rejection.",
+        "Created account rejection handling and user appeal modal functionality.",
+        "Improved notification system UI and implemented a modal for detailed notification viewing.",
+        "Fixed multiple UI styling issues, including text overflow and layout inconsistencies.",
+        "Implemented rate limiting for backend endpoints to prevent excessive refresh requests.",
+        "Performed codebase cleanup, removing redundant legacy code to maintain system stability.",
+        "Refactored the coach mentorship system, replacing hardcoded coach lists with dynamic database-driven fetching.",
+        "Resolved mentorship request workflow bugs to stabilize communication between students, coaches, and administrators.",
+        "Implemented notification triggers for mentorship requests and decisions.",
+        "Replaced static data in University Admin analytics dashboard with real-time database queries.",
+        "Developed dynamic graph reporting for system metrics and activity tracking.",
+        "Assisted the team in bug hunting, QA testing, and feature debugging."
+      ],
+      "learnings": [
+        "Gained deeper experience in full-stack debugging and system optimization.",
+        "Learned the importance of rate limiting and backend protection mechanisms for production systems.",
+        "Developed skills in data visualization and analytics integration for administrative dashboards.",
+        "Strengthened teamwork through QA collaboration, bug reporting, and feature refinement."
+      ],
+      "tags": ["Sillag", "Mentorship", "Analytics", "Rate Limiting", "QA"]
+    },
+    {
+      "slug": "week-6",
+      "weekNumber": 6,
+      "weekLabel": "Week 6",
+      "title": "Week 6: Beta Testing and Critical Issue Patching",
+      "dateRange": "March 16 - March 21",
+      "preview": "Ran Sillag beta testing, fixed runtime/build blockers, and patched multiple critical issues under pressure.",
+      "tasks": [
+        "Beta testing of Sillag.",
+        "Fixed uploading pending status bug.",
+        "Fixed runtime error bug.",
+        "Fixed run build bug.",
+        "Upload revision debugging.",
+        "Coach-to-student and admin-to-student relationship debugging.",
+        "Beta testing of Sillag.",
+        "Critical thinking on Sillag new PRD.",
+        "Helped the team on understanding the new PRD.",
+        "Patches: Successfully patched Critical Issue No.1, Critical Issue No. 2 (C2 combo meal), and Critical Issue No. 3 (C3 combo meal).",
+        "Refactor: Stabilized the core Research Progression state and executed a major UI cleanup of the Research Page.",
+        "Patches: Successfully patched Critical Issue No.1, Critical Issue No. 2 (C2 combo meal), and Critical Issue No. 3 (C3 combo meal).",
+        "Refactor: Stabilized the core Research Progression state and executed a major UI cleanup of the Research Page."
+      ],
+      "learnings": [
+        "Learned how to identify and resolve critical system bugs under time pressure, especially during beta testing phases.",
+        "Gained deeper understanding of runtime and build errors and how small configuration issues can cascade into system-wide failures.",
+        "Strengthened debugging skills in upload systems, status handling, and role-based relationships (coach-student-admin).",
+        "Improved critical thinking in interpreting a revised PRD and aligning system behavior with updated requirements.",
+        "Learned the importance of stability-first development when handling multiple critical issues simultaneously.",
+        "Developed discipline in prioritizing fixes (critical issue stacking) before feature expansion.",
+        "Strengthened teamwork communication during rapid patch cycles and stabilization efforts."
+      ],
+      "tags": ["Sillag", "Beta Testing", "Critical Patches", "Refactor"]
+    },
+    {
+      "slug": "week-7",
+      "weekNumber": 7,
+      "weekLabel": "Week 7",
+      "title": "Week 7: Domino-Effect Bug Fixing and Report Stabilization",
+      "dateRange": "March 23 - March 28",
+      "preview": "Handled mentor affiliation and lifecycle domino-effect issues, then stabilized reporting flows across admin roles.",
+      "tasks": [
+        "Patches: mentor-affiliated-research-addition. mentor-affiliated-research-addition.",
+        "Refactor: Affiliated Research for Mentor additions due to domino-effect bug.",
+        "Patches: mentor-affiliated-research-addition. mentor-affiliated-research-addition.",
+        "Refactor: Affiliated Research for Mentor additions due to domino-effect bug.",
+        "Updated research lifecycle stages to restore missing stages and stabilize flow.",
+        "Debugged logic issues and fixed organization-side incubation and acceleration workflow behavior (Critical).",
+        "Integrated and stabilized organization incubation and acceleration research workflow updates (Critical).",
+        "Handled synchronization merges from main while validating branch stability.",
+        "Updated research lifecycle stages to restore missing stages and stabilize flow.",
+        "Debugged logic issues and fixed organization-side incubation and acceleration workflow behavior (Critical).",
+        "Integrated and stabilized organization incubation and acceleration research workflow updates (Critical).",
+        "Handled synchronization merges from main while validating branch stability.",
+        "Debugged and stabilized superadmin and organization report pages.",
+        "Fixed organization quarterly and monthly report and export formatting issues.",
+        "Worked on admin report page legacy revisions and validation.",
+        "Handled repeated merge and sync conflict resolutions from main for report-related branches.",
+        "System beta test, checking for backend inconsistency, and removing legacy account implementations."
+      ],
+      "learnings": [
+        "Learned how interconnected systems can break due to domino-effect bugs, especially in research lifecycle flows.",
+        "Gained experience handling complex workflow systems (incubation, acceleration, affiliation logic).",
+        "Improved backend debugging skills, particularly in merge conflict resolution and branch synchronization.",
+        "Understood how lifecycle states must be carefully designed to avoid missing or inconsistent stages.",
+        "Strengthened skills in handling report generation systems (monthly and quarterly exports and formatting validation).",
+        "Learned the importance of validating changes in multiple system layers (superadmin, organization, and reporting modules).",
+        "Developed patience and resilience when dealing with repeated merge conflicts and legacy system instability."
+      ],
+      "tags": ["Sillag", "Lifecycle", "Reports", "Merge Conflicts", "Critical"]
+    },
+    {
+      "slug": "week-8",
+      "weekNumber": 8,
+      "weekLabel": "Week 8",
+      "title": "Week 8: Full Integration and Scope Discipline",
+      "dateRange": "April 6 - April 11",
+      "preview": "Completed end-to-end feature integration, identified vulnerabilities, and enforced PRD boundaries to prevent scope creep.",
+      "tasks": [
+        "Completed end-to-end integration of all major Sillag features to ensure system-wide connectivity.",
+        "Conducted full system consistency checks across modules to identify broken or misaligned features.",
+        "Detected and documented multiple bugs, inconsistencies, and security vulnerabilities during integration testing.",
+        "Assisted in stabilizing the system by isolating critical issues and coordinating fixes with the team.",
+        "Enforced adherence to the Product Requirements Document (PRD) to prevent scope creep during development.",
+        "Helped the team refocus development efforts by limiting unnecessary feature expansion and ensuring PRD alignment.",
+        "Participated in system-level debugging and validation of interconnected features across modules."
+      ],
+      "learnings": [
+        "Gained full-system understanding of how interconnected features in Sillag depend on strict adherence to the PRD.",
+        "Learned how to detect system inconsistencies across multiple modules during full integration testing.",
+        "Strengthened debugging skills in large-scale systems where multiple bugs appear from feature overlap.",
+        "Developed the ability to identify vulnerabilities and weak points in system architecture before deployment.",
+        "Learned how to manage scope creep and enforce PRD boundaries to maintain project stability.",
+        "Improved leadership and coordination skills by helping contain the team within defined development scope.",
+        "Strengthened system thinking by understanding how one feature affects the entire platform ecosystem.",
+        "Value learned: discipline in preventing feature overgrowth and prioritizing system integrity over experimentation."
+      ],
+      "tags": ["Sillag", "Integration", "Security", "PRD", "Leadership"]
+    },
+    {
+      "slug": "week-9",
+      "weekNumber": 9,
+      "weekLabel": "Week 9",
+      "title": "Week 9: Security Migration and PR Gatekeeping",
+      "dateRange": "April 13 - April 18",
+      "preview": "Handled API key migration and module handover while operating as PR reviewer for quality and PRD compliance.",
+      "tasks": [
+        "Performed API key migration and secured removal of outdated or exposed credentials.",
+        "Assisted in system cleanup and ensured secure configuration of updated API integrations.",
+        "Handled handover of Sillag modules to ensure smooth transition of responsibilities across teams.",
+        "Joined the Prompt Graph Team and integrated into its development workflow.",
+        "Acted as pull request reviewer, validating code changes before merging into the main branch.",
+        "Reviewed multiple pull requests for PRD compliance, logic errors, and system inconsistencies.",
+        "Requested revisions and enforced quality control before allowing changes into production-ready code."
+      ],
+      "learnings": [
+        "Learned API key migration procedures and the importance of securing and rotating sensitive credentials.",
+        "Gained experience in system handover processes, ensuring continuity of development across teams.",
+        "Improved code review and pull request evaluation skills, focusing on correctness before merge approval.",
+        "Developed ability to detect inconsistencies and logical flaws in external team implementations.",
+        "Strengthened communication skills through structured feedback and revision requests during PR reviews.",
+        "Learned how to enforce code quality standards before merging into the main branch.",
+        "Improved responsibility handling as a reviewer, ensuring system stability is preserved by gatekeeping bad merges.",
+        "Value learned: accountability in protecting production integrity through careful review and refusal of unstable changes."
+      ],
+      "tags": ["Security", "PromptGraph", "PR Review", "Handover"]
+    },
+    {
+      "slug": "week-10",
+      "weekNumber": 10,
+      "weekLabel": "Week 10",
+      "title": "Week 10: PR Reviews and Token Security Fix",
+      "dateRange": "April 20 - April 25",
+      "preview": "Continued PR checking and fixed a single-use token security issue by implementing expiration and legacy blocking.",
+      "tasks": [
+        "Continued being a pull request checker.",
+        "Checked multiple branches that wanted to enter main.",
+        "Fixed a security issue where Single Use Token behaved indefinitely by adding expireAt handling and an auto token blocker for legacy tokens."
+      ],
+      "learnings": [],
+      "tags": ["Security", "PR Review", "Auth"]
+    },
+    {
+      "slug": "week-11",
+      "weekNumber": 11,
+      "weekLabel": "Week 11",
+      "title": "Week 11: PromptGraph Review and Portfolio Preparation",
+      "dateRange": "April 27 - May 2",
+      "preview": "Continued PR review responsibilities in PromptGraph while starting portfolio presentation preparation.",
+      "tasks": [
+        "Continued being a pull request checker of PromptGraph.",
+        "Began creating portfolio presentation materials."
+      ],
+      "learnings": [],
+      "tags": ["PromptGraph", "PR Review", "Portfolio"]
+    },
+    {
+      "slug": "week-12",
+      "weekNumber": 12,
+      "weekLabel": "Week 12",
+      "title": "Week 12: Portfolio Launch",
+      "dateRange": "May 4 - May 7",
+      "preview": "Developed personal profile portfolio and published it to Vercel.",
+      "tasks": [
+        "Developed personal profile and published to Vercel."
+      ],
+      "learnings": [],
+      "tags": ["Portfolio", "Deployment", "Vercel"]
+    }
+  ]
+}
