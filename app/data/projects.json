@@ -43,7 +43,7 @@
     "description": "Academic performance tracking system deployed on university servers",
     "longDescription": "A system developed for Pangasinan State University currently utilized in Computer Science Lab 3 and Lab 4. Focused on predictive analysis and academic performance tracking using machine learning principles.",
     "techStack": ["Python", "Machine Learning", "Web Framework", "SQL"],
-    "completionDate": "2023",
+    "completionDate": "2025",
     "category": "Backend",
     "github": "https://github.com/christianpepscaasi-gh/Grade-Prediction-System",
     "featured": true
@@ -53,8 +53,8 @@
     "title": "ChainMarket",
     "description": "First hackathon blockchain marketplace project for buying and selling products",
     "longDescription": "ChainMarket was my first hackathon project using Base blockchain: an online marketplace for buying and selling a wide range of products, with blockchain used as an immutable identification database to prove product purchase.",
-    "techStack": ["Base", "Blockchain", "Smart Contracts", "Web App"],
-    "completionDate": "2025",
+    "techStack": ["Base", "Blockchain", "Smart Contracts", "Web App", "TypeScript"],
+    "completionDate": "2026",
     "category": "Blockchain",
     "github": "https://github.com/christianpepscaasi-gh/ChainMarket",
     "featured": true
@@ -62,7 +62,7 @@
   {
     "id": "pandanchain",
     "title": "PandanChain",
-    "description": "Blockchain-based system for supply chain management",
+    "description": "Blockchain-based data management system",
     "longDescription": "Contributed to the development and implementation of the PandanChain system during its active development phase. Worked on system architecture, smart contracts, and integration with blockchain infrastructure.",
     "techStack": ["Solidity", "Blockchain", "Web3.js", "Node.js"],
     "completionDate": "2026",
@@ -82,7 +82,7 @@
     "title": "PromptGraph",
     "description": "Live web crawler and LLM-based tracking system",
     "longDescription": "Served as Pull Request Reviewer and QA contributor for PromptGraph, a production web crawler system. Reviewed production-level code for quality and security issues while performing ticket-based development tasks.",
-    "techStack": ["JavaScript", "Python", "LLM Integration", "Web Crawling"],
+    "techStack": ["TypeScript", "Python", "LLM Integration", "Web Crawling"],
     "completionDate": "2026",
     "category": "QA/Research"
   }
