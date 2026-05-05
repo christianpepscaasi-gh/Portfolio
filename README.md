@@ -1,8 +1,8 @@
-# Christian Peps Caasi — Developer Portfolio
+# Christian Peps Caasi â€” Developer Portfolio
 
 A high-performance, data-driven portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS v4**. Showcasing projects, weekly OJT logs, and technical growth across mobile, blockchain, and full-stack development.
 
-**Live:** [christianpepscaasi.vercel.app](https://christianpepscaasi.vercel.app)
+**Live:** [christianpepscaasi.vercel.app](https://peps-portfolio.vercel.app/)
 
 ---
 
@@ -84,4 +84,4 @@ npm run lint      # Lint check
 
 ---
 
-*Built by Christian Peps Caasi — OJT Software Development Intern, Makerspace 2026*
+*Built by Christian Peps Caasi â€” OJT Software Development Intern, Makerspace 2026*
