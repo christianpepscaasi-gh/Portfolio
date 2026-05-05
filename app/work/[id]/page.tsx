@@ -91,27 +91,61 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
 
           {project.galleryImages && project.galleryImages.length > 0 && (
             <div className="mb-12">
-              <h2 className="text-2xl font-bold text-accent-light mb-4">Project Gallery</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {project.galleryImages.map((image) => (
-                  <figure
-                    key={`${project.id}-${image.src}`}
-                    className="bg-secondary-warm border border-accent-gold/60 rounded-lg overflow-hidden"
-                  >
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      width={960}
-                      height={640}
-                      className="w-full h-56 object-cover"
-                    />
-                    {image.caption && (
-                      <figcaption className="px-4 py-3 text-sm text-accent-light/80">
-                        {image.caption}
-                      </figcaption>
-                    )}
-                  </figure>
-                ))}
+              <h2 className="text-2xl font-bold text-accent-light mb-8">Project Gallery</h2>
+              <div className="space-y-12">
+                {project.galleryImages.map((image, index) => {
+                  const isEven = index % 2 === 0;
+                  return (
+                    <div
+                      key={`${project.id}-${image.src}`}
+                      className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
+                    >
+                      {isEven ? (
+                        <>
+                          {/* Image on left, description on right */}
+                          <figure className="bg-secondary-warm border border-accent-gold/60 rounded-lg overflow-hidden">
+                            <Image
+                              src={image.src}
+                              alt={image.alt}
+                              width={960}
+                              height={640}
+                              className="w-full h-72 object-cover"
+                            />
+                          </figure>
+                          {image.caption && (
+                            <div className="text-accent-light/85 leading-relaxed">
+                              <p className="text-lg font-medium text-accent-gold mb-2">
+                                {image.caption}
+                              </p>
+                              <p className="text-accent-light/70">{image.alt}</p>
+                            </div>
+                          )}
+                        </>
+                      ) : (
+                        <>
+                          {/* Description on left, image on right */}
+                          {image.caption && (
+                            <div className="text-accent-light/85 leading-relaxed">
+                              <p className="text-lg font-medium text-accent-gold mb-2">
+                                {image.caption}
+                              </p>
+                              <p className="text-accent-light/70">{image.alt}</p>
+                            </div>
+                          )}
+                          <figure className="bg-secondary-warm border border-accent-gold/60 rounded-lg overflow-hidden">
+                            <Image
+                              src={image.src}
+                              alt={image.alt}
+                              width={960}
+                              height={640}
+                              className="w-full h-72 object-cover"
+                            />
+                          </figure>
+                        </>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}
