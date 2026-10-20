@@ -4,6 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Navbar, Footer } from "@/components";
+import { WebMCPTools } from "@/components/WebMCPTools";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,6 +45,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-grow pt-16">{children}</main>
         <Footer />
+        <WebMCPTools />
         <SpeedInsights />
         <Analytics />
       </body>
